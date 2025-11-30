@@ -150,3 +150,116 @@ for (let product3 of products3) {
             <button>Add to Cart</button>
         </div>`;
 }
+let products4 = [
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/BigMustardSeeds_a8b5db37-6f67-42aa-926d-5ef791be120e.jpg?crop=center&height=1296&v=1747305341&width=1080",
+        Name:"Big Mustard Seeds",
+        Price:189
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/BVE-COM06357copy.jpg?crop=center&height=1296&v=1747305549&width=1080",
+        Name:"Black Mustard Small",
+        Price:153
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/KaliMirch.jpg?crop=center&height=768&v=1745008545&width=640",
+        Name:"Kali Mirch",
+        Price:168
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Selam_Haldi_Powder.jpg?crop=center&height=768&v=1745008538&width=640",
+        Name:"Selam Haldi Powder",
+        Price:179
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/OrganicFenugreekSeeds.jpg?crop=center&height=768&v=1745008532&width=640",
+        Name:"Organic Fenugreek Seeds",
+        Price:154
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/3_3.jpg?crop=center&height=768&v=1740339094&width=640",
+        Name:"Saffron",
+        Price:868
+    },
+    
+];
+
+for (let product4 of products4) {
+    app.innerHTML += `
+        <div>
+            <img src="${product4.Image}" /> 
+            <h3>${product4.Name}</h3>
+            <h4>₹${product4.Price}</h4>
+            <button>Add to Cart</button>
+        </div>`;
+}
+let products5 = [
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Barley_Grain_7ab07344-dba4-4a95-80c2-c48a7999affd.png?crop=center&height=576&v=1740338781&width=480",
+        Name:"Barley Grain",
+        Price:118
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Basmati_Rice.png?crop=center&height=576&v=1740339060&width=480",
+        Name:"Basmati Rice",
+        Price:198
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Buckwheat_b78f548c-fed2-4d61-bdd3-1455fc105b93.png?crop=center&height=576&v=1745007795&width=480",
+        Name:"Buckwheat",
+        Price:176
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Pearl_Barley_2472c19a-3bc2-417a-bc5b-8d121ece5c44.png?crop=center&height=576&v=1740338786&width=480",
+        Name:"Pearl Barley",
+        Price:195
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Red_Rice_2aea54de-87bf-473a-9a3c-139f6d68bc42.png?crop=center&height=576&v=1740338778&width=480",
+        Name:"Red Rice",
+        Price:134
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Semolina_0a07dcdc-8051-460b-a69a-4734a624a24e.png?crop=center&height=576&v=1740338802&width=480",
+        Name:"Suji",
+        Price:68
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/index_2.png?crop=center&height=768&v=1740338394&width=640",
+        Name:"Sharbati Wheat",
+        Price:98
+    },
+];
+
+for (let product5 of products5) {
+    app.innerHTML += `
+        <div>
+            <img src="${product5.Image}" /> 
+            <h3>${product5.Name}</h3>
+            <h4>₹${product5.Price}</h4>
+            <button>Add to Cart</button>
+        </div>`;
+}
+let products6 = [
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/OrganicJaggeryPowder.jpg?crop=center&height=1296&v=1745008522&width=1080",
+        Name:"Jaggery Powder",
+        Price:165
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/BVE-COM06379copy_1_1.jpg?crop=center&height=1296&v=1763636231&width=1080",
+        Name:"Pink Salt",
+        Price:121
+    },
+    
+];
+
+for (let product6 of products6) {
+    app.innerHTML += `
+        <div>
+            <img src="${product6.Image}" /> 
+            <h3>${product6.Name}</h3>
+            <h4>₹${product6.Price}</h4>
+            <button>Add to Cart</button>
+        </div>`;
+}
