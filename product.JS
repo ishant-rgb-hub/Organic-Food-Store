@@ -102,3 +102,51 @@ for (let product2 of products2) {
             <button>Add to Cart</button>
         </div>`;
 }
+
+let products3 = [
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Amaranth_Flour_15182e7f-955c-4f76-8989-d8038db63210.png?crop=center&height=576&v=1740339121&width=480",
+        Name:"Amaranth Flour",
+        Price:162
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/BHARAT_VEDICA_BARLEY_JAU_FLOUR_AMAZON_THUMBNAIL-01.jpg?crop=center&height=1296&v=1731770137&width=1080",
+        Name:"BARLEY JAU FLOUR",
+        Price:176
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Barnyard_Millet_Flour_5180d864-e667-4f45-bfa8-cba64f81d168.png?crop=center&height=576&v=1726051232&width=480",
+        Name:"Barnyard Millet Flour",
+        Price:178
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/BHARAT_VEDICA_KATTU_BUCK_WHEAT_FLOUR_AMAZON_THUMBNAIL-01.jpg?crop=center&height=768&v=1740338902&width=640",
+        Name:"KATTU BUCK WHEAT FLOUR",
+        Price:183
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Corn_Flour_b02f252c-7176-4ccd-9f4f-305d0d98ee20.png?crop=center&height=576&v=1740338880&width=480",
+        Name:"Corn Flour",
+        Price:154
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Finger_Millet_Flour_007e6fb8-c48f-4c4b-b03c-23dddd4a6a57.png?crop=center&height=576&v=1740338871&width=480",
+        Name:"Finger Millet Flour",
+        Price:148
+    },
+    {
+        Image:"https://bharatvedica.com/cdn/shop/files/Organic_Little_Millet_Flour_a48b27de-0573-47ea-be48-fcd859451ec3.png?crop=center&height=576&v=1740338943&width=480",
+        Name:"Little Millet Flour",
+        Price:184
+    },
+];
+
+for (let product3 of products3) {
+    app.innerHTML += `
+        <div>
+            <img src="${product3.Image}" /> 
+            <h3>${product3.Name}</h3>
+            <h4>₹${product3.Price}</h4>
+            <button>Add to Cart</button>
+        </div>`;
+}
